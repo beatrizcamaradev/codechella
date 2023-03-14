@@ -5,6 +5,7 @@
 @import url('./container.css');
 @import url('./button.css');
 @import url('./line-up.css');
+@import url('./accordion.css');
 
 :root {
     --color-blue: #2E7BA2;
