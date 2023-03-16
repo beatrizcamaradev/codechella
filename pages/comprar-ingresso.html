@@ -38,8 +38,51 @@
 
         <!-- BANNER -->
         <section class="banner banner-comprar">
-           <h1 class="banner__title">Garanta seu Ingresso</h1>
-       </section>
+            <h1 class="banner__title">Garanta seu Ingresso</h1>
+        </section>
+
+        <div class="background-gradient">
+
+            <!-- FORM  -->
+            <div class="container">
+                <h2 class="form__title">Preencha o formulário a seguir:</h2>
+                <form action="#" class="form__container">
+
+                    <div class="form__item">
+                        <label for="name" class="form__label">Nome Completo:</label>
+                        <input id="name" type="text" name="name" maxlength="100">
+                    </div>
+
+                    <div class="form__item">
+                        <label for="email" class="form__label">Email:</label>
+                        <input id="email" type="email" name="email" maxlength="100">
+                    </div>
+
+                    <div class="form__item">
+                        <label for="ticket-type" class="form__label">Tipo de ingresso:</label>
+                        <select id="ticket-type" name="ticket-type">
+                            <option value="">Tipo de ingresso</option>
+                            <option value="premium">Pista Premium</option>
+                            <option value="regular">Pista Comum</option>
+                            <option value="floor-chairs">Cadeiras Térreo</option>
+                            <option value="deck-chairs">Cadeiras Superiores</option>
+                            <option value="ramp">Rampas</option>
+                        </select>
+                    </div>   
+                    
+                    <div class="form__item">
+                        <label for="birthday" class="form__label">Data de nascimento:</label>
+                        <input id="birthday" type="date" name="birthday">
+                    </div>
+
+                    <div class="form__button">
+                        <button class="select-button">Avançar!</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
 
    </main>
 

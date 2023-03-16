@@ -6,6 +6,7 @@
 @import url('./button.css');
 @import url('./line-up.css');
 @import url('./accordion.css');
+@import url('./form.css');
 
 :root {
     --color-blue: #2E7BA2;
@@ -30,4 +31,20 @@ body {
 
 .background-gradient {
     background: var(--color-gradient);
+}
+
+button,
+fieldset,
+input,
+legend,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
