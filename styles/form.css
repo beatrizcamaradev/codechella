@@ -12,9 +12,7 @@
 }
 
 .form__container {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+    display: grid;
     gap: 2rem;
 }
 
@@ -25,7 +23,7 @@
 }
 
 .form__button {
-    align-self: center;
+    justify-self: center;
 }
 
 .form__label {
@@ -60,11 +58,14 @@
     .container {
         display: flex;
         flex-direction: column;
-        padding: 3rem 7.5rem;
+        padding: 3rem 20.1563rem;
     }
 
-    .form__item:nth-child(3),
-    .form__item:nth-child(4) {
-        
+    .form__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-col-span-2 {
+        grid-column: span 2;
     }
 }
